@@ -11,8 +11,8 @@ const users = [
     id: 2,
     name: "Anne Marie",
     cardName: "Anne Marie ",
-    username: "an",
-    password: "ma",
+    username: "Thegreenherself",
+    password: "Johnwick4",
     amount: "908,333.45",
   },
 ];
