@@ -3,61 +3,81 @@
 }
 @media screen and (max-width: 767px) {
   .dashboard {
-    background-color: #d71e2734;
+    background-color: #ffffff;
     height: 200vh;
     display: block;
   }
   .dashboard_header {
-      padding-top: 10px;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      background-color: #0B62DB;
-      border-bottom: 4px solid #ffffff;
-      padding-left: 15px;
-      padding-right: 15px;
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #0b62db;
+    /* border-bottom: 4px solid #ffffff; */
+    padding-left: 15px;
+    padding-right: 15px;
   }
-  .dashboard_header img{
+  .dashboard_header img {
     width: 150px;
   }
   .dashboard_details {
     display: flex;
     justify-content: space-between;
   }
-  .header button{
+  .logout_btn {
     padding: 5px;
-    margin-bottom: 5px;
     border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: #ffffff;
+    color: #000000;
+    font-weight: 60;
   }
   .main-account-balance {
-    min-height: 500px;
-    padding-top: 15px;
-    padding-left: 15px;
-    padding-right: 15px;
+    /* min-height: 500px; */
+    padding-left: 10px;
+    padding-right: 10px;
   }
+
+  .account_text {
+    padding: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    /* margin-bottom: 10px; */
+  }
+  .account_text h2 {
+    font-size: 20px;
+  }
+
   .account-details {
     /* margin-top: 20px; */
-    padding: 10px;
-    padding-top: 1px;
-    border-radius: 15px;
-    background-color: #fff;
-    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+    padding: 20px;
+    padding-top: 35px;
+    padding-left: 10px;
+    padding-right: 10px;
+    /* border-radius: 15px; */
+    background-color: #f8f8f8;
+    /* box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05); */
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
   }
+ 
   .account-details h2 {
-    font-size: 13px;
+    font-size: 20px;
     color: rgb(65, 63, 63);
     font-weight: 500;
-    font-family: "Rubik", sans-serif;
   }
+
   .account-details .price {
-    font-size: 25px;
+    font-size: 30px;
     font-weight: bold;
     color: rgb(56, 56, 56);
-    font-family: "Rubik", sans-serif;
+    margin-top: 10px;
   }
-  hr {
-    border: 1px solid rgb(240, 240, 240);
-  }
+
   .transaction-history-header {
     display: flex;
     justify-content: space-between;
@@ -86,7 +106,7 @@
     padding-right: 15px;
     margin-bottom: 10px;
     border-radius: 10px;
-    background-color: #0B62DB;
+    background-color: #0b62db;
     display: flex;
     /* align-items: center; */
     justify-content: space-between;
@@ -127,7 +147,7 @@
     flex-direction: column;
     font-weight: bold;
   }
-  .green{
+  .green {
     color: #1cbd19;
     font-weight: bold;
   }
@@ -150,10 +170,10 @@
     margin: auto;
     margin-top: 50px;
   }
-  .credit_card span{
+  .credit_card span {
     font-weight: bold;
     text-transform: uppercase;
-    color: #DFBAB9;
+    color: #dfbab9;
     position: relative;
     top: -40px;
     left: -65px;
@@ -172,7 +192,7 @@
     /* padding: 15px; */
     /* left: 0; */
     /* right: 0; */
-    background-color: #0B62DB;
+    background-color: #0b62db;
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -206,7 +226,7 @@
   .account-footer a:hover {
     text-decoration: none;
   }
-  
+
   .modal_form {
     margin-bottom: 20px;
   }
@@ -221,12 +241,12 @@
   .modal_form div input {
     max-width: 300px;
     padding: 1rem;
-    border: 1px solid #0B62DB;
+    border: 1px solid #0b62db;
   }
 
   .modal_form div label {
     font-size: 1.2rem;
-    color: #0B62DB;
+    color: #0b62db;
     display: block;
   }
 
@@ -235,15 +255,16 @@
     margin-top: 20px;
     border: none;
     color: #fff;
-    background: #0B62DB;
+    background: #0b62db;
     padding: 10px;
-    box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+    box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1),
+      0 8px 10px -6px rgb(0 0 0 / 0.1);
   }
 
   .modal_form div button:hover {
     background-color: transparent;
-    border: 1px solid #0B62DB;
-    color: #0B62DB;
+    border: 1px solid #0b62db;
+    color: #0b62db;
   }
   /* @media (max-width: 450px) {
     .account-details h2 {

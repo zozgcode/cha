@@ -5,6 +5,7 @@ import Logo from "../../assets/logoo.png";
 import creditCard from "../../assets/1617888734hh2iaLYuB1.png";
 import "./Dashboard.css";
 import DougBrook from "../AllUserTransactions/DougBrook";
+import AnneMarie from "../AllUserTransactions/AnneMarie";
 
 export default function Dashboard() {
   const [shouldShowModal, setShouldShowModal] = useState(false);
@@ -35,22 +36,22 @@ export default function Dashboard() {
         </button>
       </div>
       <div className="main-account-balance">
-        <div className="dashboard_details">
+        <div className="account_text">
           <h2>Hi, {user.name}</h2>
         </div>
         <div className="account-details">
-          <h2>AVAILABLE CASH</h2>
+          <h2>Current Balance</h2>
           <span className="price">${user.amount}</span>
-          <hr />
-          <div className="transaction_container">
-            {user.id === 1 && <DougBrook />}
-          </div>
+        </div>
+        <div className="transaction_container">
+          {user.id === 1 && <DougBrook />}
+          {user.id === 2 && <AnneMarie />}
         </div>
       </div>
-      <div className="credit_card">
+      {/* <div className="credit_card">
         <img src={creditCard} alt="creditCard" />
         <span>{user.cardName}</span>
-      </div>
+      </div> */}
       <div className="account-footer">
         <div>
           <span>
