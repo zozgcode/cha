@@ -4,11 +4,12 @@
 @media screen and (max-width: 767px) {
   .dashboard {
     background-color: #ffffff;
-    height: 200vh;
+    height: 100%;
     display: block;
+    padding-bottom: 150px;
   }
   .dashboard_header {
-    padding-top: 10px;
+    padding: 10px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -25,13 +26,21 @@
     justify-content: space-between;
   }
   .logout_btn {
-    padding: 5px;
+    padding: 10px;
+    padding-top: 11px;
     border: none;
     outline: none;
     cursor: pointer;
     background-color: #ffffff;
     color: #000000;
-    font-weight: 60;
+    font-weight: 600;
+    display: block;
+    width: 80px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 2px;
   }
   .main-account-balance {
     /* min-height: 500px; */

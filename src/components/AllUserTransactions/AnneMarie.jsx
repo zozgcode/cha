@@ -6,7 +6,7 @@ export default function AnneMarie() {
   return (
     <div className={style.transaction_history}>
       <div className={style.in_transaction_history}>
-        <div className={style.title}>Transaction History</div>
+        <div className={style.title}>Last Transaction</div>
         {anneMarieTxData.map((aTxData, i) => (
           <div className={`${style.t_box} ${i === 0 ? style.firstContainer : ''}`} key={i}>
             <div className={style.s_box}>
