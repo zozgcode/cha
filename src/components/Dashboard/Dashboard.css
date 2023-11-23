@@ -251,6 +251,7 @@
     max-width: 300px;
     padding: 1rem;
     border: 1px solid #0b62db;
+    margin-top: 5px;
   }
 
   .modal_form div label {
