@@ -28,7 +28,7 @@ const users = [
     name: "Glenn Awong",
     cardName: "Glenn Awong",
     username: "glennawong34",
-    password: "83er9cm3498",
+    password: "!3er9glcmen3498",
     amount: "797,000.00",
   },
   { 
