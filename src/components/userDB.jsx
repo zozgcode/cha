@@ -33,8 +33,8 @@ const users = [
   },
   { 
     id: 5,
-    name: "Smith brown",
-    cardName: "Smith brown",
+    name: "Smith Brown",
+    cardName: "Smith Brown",
     username: "Smithbrown12345",
     password: "83smithcm3498",
     amount: "800,000,000.00",
