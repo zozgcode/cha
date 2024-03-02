@@ -355,14 +355,14 @@ export const AlexaWilliamsTxData = [
     txName: "Power Ball Lottery",
     whatUsed: "Credit",
     debit: "+$100,000.00",
-    date: "Nov 22, 2024",
+    date: "Feb 15, 2024",
     color: "green",
   },
   {
     txName: "#23190129",
     whatUsed: "Credit",
     debit: "+$50,000.00",
-    date: "Nov 22, 2024",
+    date: "Jan 2, 2024",
     color: "green",
   },
   {
