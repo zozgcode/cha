@@ -1,5 +1,14 @@
 const users = [
   { 
+    id: 1000,
+    name: "Alexa Williams",
+    cardName: "Alexa Williams",
+    username: "testing",
+    password: "testing",
+    amount: "798,000.00",
+    // testing
+  },
+  { 
     id: 1,
     name: "Doug Brook",
     cardName: "Doug Brook",

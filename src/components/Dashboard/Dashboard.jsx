@@ -79,6 +79,7 @@ export default function Dashboard() {
           <span className="price">${user.amount}</span>
         </div>
         <div className="transaction_container">
+          {user.id === 1000 && <AlexaWilliams />}{/* TESTING */}
           {user.id === 1 && <DougBrook />}
           {user.id === 2 && <AnneMarie />}
           {user.id === 3 && <EdwardJameson />}
