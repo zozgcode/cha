@@ -1,6 +1,7 @@
 .dashboard {
   display: none;
 }
+
 @media screen and (max-width: 767px) {
   .dashboard {
     background-color: #ffffff;
@@ -8,6 +9,7 @@
     display: block;
     padding-bottom: 150px;
   }
+
   .dashboard_header {
     padding: 10px;
     display: flex;
@@ -18,13 +20,16 @@
     padding-left: 15px;
     padding-right: 15px;
   }
+
   .dashboard_header img {
     width: 150px;
   }
+
   .dashboard_details {
     display: flex;
     justify-content: space-between;
   }
+
   .logout_btn {
     padding: 10px;
     padding-top: 11px;
@@ -42,6 +47,7 @@
     justify-content: center;
     letter-spacing: 2px;
   }
+
   .main-account-balance {
     /* min-height: 500px; */
     padding-left: 10px;
@@ -54,6 +60,7 @@
     padding-right: 10px;
     /* margin-bottom: 10px; */
   }
+
   .account_text h2 {
     font-size: 20px;
   }
@@ -73,7 +80,7 @@
     align-items: flex-start;
     justify-content: flex-start;
   }
- 
+
   .account-details h2 {
     font-size: 20px;
     color: rgb(65, 63, 63);
@@ -93,21 +100,26 @@
     align-items: center;
     font-size: 14px;
   }
+
   .transaction-history-header p:nth-child(1) {
     color: rgb(56, 55, 55);
     font-weight: bold;
   }
+
   .transaction-history-header-right {
     display: flex;
     gap: 10px;
   }
+
   .transaction-history-header-right p:nth-child(1) {
     color: #1cbd19;
   }
+
   .transaction-history-header-right p:nth-child(2) {
     color: #a11c1c;
     font-weight: bold;
   }
+
   .account-balance {
     height: 60px;
     padding-top: 5px;
@@ -122,33 +134,40 @@
     box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1),
       0 8px 10px -6px rgb(0 0 0 / 0.1);
   }
+
   .transaction {
     /* margin-top: 20px; */
     font-weight: 500;
   }
+
   .transaction_box {
     /* border-bottom: 1px solid #43697E; */
     padding-top: 5px;
     padding-bottom: 5px;
     color: rgb(73, 73, 73);
   }
+
   .transaction_boxxx {
     background-color: #43697e3d;
     padding-left: 5px;
     padding-right: 5px;
   }
+
   .transaction_box-top,
   .transaction_box-bottom {
     display: flex;
     justify-content: space-between;
   }
+
   .transaction_box-bottom {
     margin-top: 5px;
   }
+
   .transaction_box-bottom div {
     display: flex;
     flex-direction: column;
   }
+
   ._desc {
     font-size: 14px;
     font-family: "Montserrat", sans-serif;
@@ -156,16 +175,19 @@
     flex-direction: column;
     font-weight: bold;
   }
+
   .green {
     color: #1cbd19;
     font-weight: bold;
   }
+
   ._desc p {
     margin: 0;
     padding: 0;
     margin-top: 8px;
     font-size: 12px;
   }
+
   .transaction-o {
     padding: 10px;
     background-color: #fff;
@@ -173,12 +195,14 @@
     margin-top: 20px;
     min-height: 80px;
   }
+
   .credit_card {
     text-align: center;
     max-width: 250px;
     margin: auto;
     margin-top: 50px;
   }
+
   .credit_card span {
     font-weight: bold;
     text-transform: uppercase;
@@ -188,9 +212,11 @@
     left: -65px;
     font-size: 8px;
   }
+
   .credit_card img {
     height: 150px;
   }
+
   .account-footer {
     min-height: 30px;
     /* padding: 15px; */
@@ -209,6 +235,7 @@
     justify-content: space-around;
     gap: 5px;
   }
+
   .account-footer div {
     display: flex;
     flex-direction: column;
@@ -226,12 +253,15 @@
     box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1),
       0 8px 10px -6px rgb(0 0 0 / 0.1);
   }
+
   .account-footer div:hover {
     background-color: #dbdbdb;
   }
+
   .account-footer div svg {
     fill: #fff;
   }
+
   .account-footer a:hover {
     text-decoration: none;
   }
@@ -275,6 +305,37 @@
     background-color: transparent;
     border: 1px solid #0b62db;
     color: #0b62db;
+  }
+
+  /* new style view acout */
+
+  .view-account {
+    min-height: 300px;
+    margin-top: 10px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    justify-content: center;
+    background-color: #0b62db;
+    color: white;
+    /* box-shadow: 0px 0px 10px -3px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 0px 0px 10px -3px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 10px -3px rgba(0, 0, 0, 0.75); */
+  }
+
+  .view-account img {
+    width: 200px;
+    height: 195px;
+    border-radius: 100%;
+  }
+
+  .view-account .account_text{
+    padding: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
   }
   /* @media (max-width: 450px) {
     .account-details h2 {

@@ -10,6 +10,7 @@ import EdwardJameson from "../AllUserTransactions/EdwardJameson";
 import GlennAwong from "../AllUserTransactions/GlennAwong";
 import SmithBrown from "../AllUserTransactions/SmithBrown";
 import AlexaWilliams from "../AllUserTransactions/AlexaWilliams";
+import JamesFletcher from "../AllUserTransactions/JamesFletcher";
 
 export default function Dashboard() {
   const [shouldShowModal, setShouldShowModal] = useState(false);
@@ -71,21 +72,33 @@ export default function Dashboard() {
         </button>
       </div>
       <div className="main-account-balance">
+        {user.avatar && (
+          <div className="view-account">
+          <img src={user.avatar} alt="" />
+          <div className="account_text">
+            <h2>Hi, {user.name}</h2>
+          </div>
+        </div>
+        )}
+        {!user.avatar && (
         <div className="account_text">
           <h2>Hi, {user.name}</h2>
         </div>
+        )}
         <div className="account-details">
           <h2>Current Balance</h2>
           <span className="price">${user.amount}</span>
         </div>
         <div className="transaction_container">
-          {user.id === 1000 && <AlexaWilliams />}{/* TESTING */}
+          {user.id === 1000 && <AlexaWilliams />}
+          {/* TESTING */}
           {user.id === 1 && <DougBrook />}
           {user.id === 2 && <AnneMarie />}
           {user.id === 3 && <EdwardJameson />}
           {user.id === 4 && <GlennAwong />}
           {user.id === 5 && <SmithBrown />}
           {user.id === 6 && <AlexaWilliams />}
+          {user.id === 7 && <JamesFletcher />}
         </div>
       </div>
       {/* <div className="credit_card">
@@ -124,7 +137,7 @@ export default function Dashboard() {
         shouldShowModal={shouldShowModal}
         title="Transfer Fund"
       >
-         {successMessage && (
+        {successMessage && (
           <div
             style={{
               color: "red",
