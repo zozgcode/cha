@@ -65,6 +65,24 @@ const users = [
     amount: "3,579,642.00",
     avatar: "https://i.imgur.com/XjRHM90.png",
   },
+  { 
+    id: 8,
+    name: "Gregory Hartmann",
+    cardName: "Gregory Hartmann",
+    username: "gregoryhartmann8",
+    password: "gregoryhartmann2024",
+    amount: "800,000.00",
+    createdOn: "3/28/2024"
+  },
+  { 
+    id: 9,
+    name: "Elsa Michelle Jefferson",
+    cardName: "Elsa Michelle Jefferson",
+    username: "ElsaMichelle.J",
+    password: "Elsa123",
+    amount: "3,000,000.00",
+    createdOn: "4m/1d/2024"
+  },
 ];
 export default users;
 

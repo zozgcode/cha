@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import Modal from "@bdenzer/react-modal";
 import Logo from "../../assets/logoo.png";
-// import creditCard from "../../assets/1617888734hh2iaLYuB1.png";
 import "./Dashboard.css";
 import DougBrook from "../AllUserTransactions/DougBrook";
 import AnneMarie from "../AllUserTransactions/AnneMarie";
@@ -11,6 +10,8 @@ import GlennAwong from "../AllUserTransactions/GlennAwong";
 import SmithBrown from "../AllUserTransactions/SmithBrown";
 import AlexaWilliams from "../AllUserTransactions/AlexaWilliams";
 import JamesFletcher from "../AllUserTransactions/JamesFletcher";
+import GregoryHartmann from "../AllUserTransactions/GregoryHartmann";
+import ElsaMichelleJefferson from "../AllUserTransactions/ElsaMichelleJefferson";
 
 export default function Dashboard() {
   const [shouldShowModal, setShouldShowModal] = useState(false);
@@ -76,13 +77,13 @@ export default function Dashboard() {
           <div className="view-account">
           <img src={user.avatar} alt="" />
           <div className="account_text">
-            <h2>Hi, {user.name}</h2>
+            <h2>Welcome back,<br /> {user.name}</h2>
           </div>
         </div>
         )}
         {!user.avatar && (
         <div className="account_text">
-          <h2>Hi, {user.name}</h2>
+          <h2>Welcome back,<br /> {user.name}</h2>
         </div>
         )}
         <div className="account-details">
@@ -99,6 +100,8 @@ export default function Dashboard() {
           {user.id === 5 && <SmithBrown />}
           {user.id === 6 && <AlexaWilliams />}
           {user.id === 7 && <JamesFletcher />}
+          {user.id === 8 && <GregoryHartmann />}
+          {user.id === 9 && <ElsaMichelleJefferson />}
         </div>
       </div>
       {/* <div className="credit_card">
