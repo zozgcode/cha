@@ -88,7 +88,7 @@ const users = [
     name: "Tanya Tate Thomas",
     cardName: "Tanya Tate Thomas",
     username: "Tanyatate5262",
-    password: "tate6272828`!@.s",
+    password: "tate6272828",
     amount: "9,100,000.00",
     createdOn: "5m/21d/2024"
   },

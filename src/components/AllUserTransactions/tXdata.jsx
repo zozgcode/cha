@@ -938,13 +938,6 @@ export const ElsaMichelleJeffersonTxData = [
 
 export const TanyaTateThomasTxData = [
   {
-    txName: "Thomas Ullrich",
-    whatUsed: "Debit",
-    debit: "-$40,000.00",
-    date: "May 25, 2024",
-    color: "red",
-  },
-  {
     txName: "X-RATED CRITICS ORGANIZATION",
     whatUsed: "Credit",
     debit: "+$5,000,000.00",
