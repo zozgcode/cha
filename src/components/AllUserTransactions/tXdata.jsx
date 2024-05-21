@@ -935,3 +935,34 @@ export const ElsaMichelleJeffersonTxData = [
     color: "green",
   },
 ];
+
+export const TanyaTateThomasTxData = [
+  {
+    txName: "Thomas Ullrich",
+    whatUsed: "Debit",
+    debit: "-$40,000.00",
+    date: "May 25, 2024",
+    color: "red",
+  },
+  {
+    txName: "X-RATED CRITICS ORGANIZATION",
+    whatUsed: "Credit",
+    debit: "+$5,000,000.00",
+    date: " May 23, 2024",
+    color: "green",
+  },
+  {
+    txName: "X-RATED CRITICS ORGANIZATION",
+    whatUsed: "Credit",
+    debit: "+$2,100,000.00",
+    date: "May 16, 2024",
+    color: "green",
+  },
+  {
+    txName: "X-RATED CRITICS ORGANIZATION",
+    whatUsed: "Credit",
+    debit: "+$2,000,000.00",
+    date: "Feb 16, 2024",
+    color: "green",
+  },
+];

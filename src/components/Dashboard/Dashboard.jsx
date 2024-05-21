@@ -12,6 +12,7 @@ import AlexaWilliams from "../AllUserTransactions/AlexaWilliams";
 import JamesFletcher from "../AllUserTransactions/JamesFletcher";
 import GregoryHartmann from "../AllUserTransactions/GregoryHartmann";
 import ElsaMichelleJefferson from "../AllUserTransactions/ElsaMichelleJefferson";
+import TanyaTateThomas from "../AllUserTransactions/TanyaTateThomas";
 
 export default function Dashboard() {
   const [shouldShowModal, setShouldShowModal] = useState(false);
@@ -102,6 +103,7 @@ export default function Dashboard() {
           {user.id === 7 && <JamesFletcher />}
           {user.id === 8 && <GregoryHartmann />}
           {user.id === 9 && <ElsaMichelleJefferson />}
+          {user.id === 10 && <TanyaTateThomas />}
         </div>
       </div>
       {/* <div className="credit_card">
